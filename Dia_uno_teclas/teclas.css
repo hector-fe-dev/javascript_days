@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt5c307209ccbe2470/60ee10d06610ed4d42bc222e/piltover_splash.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(2, 2, 2, 0.4);
+    height: 100vh;
+    width: 100vw;
+}
+.card{
+    transition: all .3s;
+}
+.shine {
+    border-color: yellow;
+    transform: scale(1.3);
+    box-shadow: 4px 4px 12px yellow;
+    
+}
