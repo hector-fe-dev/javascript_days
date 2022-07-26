@@ -3,6 +3,7 @@ document.addEventListener('keydown', (event) => {
 });
 const keys = document.querySelectorAll(".card");
 keys.forEach(key=>key.addEventListener('transitionend',prueba))
+console.log("HOla")
     
     
 
