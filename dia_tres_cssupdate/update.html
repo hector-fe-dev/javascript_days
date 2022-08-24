@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="update.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arcanine</h1>
+    <div class="backgroundControlers">
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="degradado">
+        </div>
+        <input type="color" id="background">
+    </div>
+    <div class="controls">
+        <div class="stat">
+            <label for="box1">HP</label>
+            <div class="spiner">
+                <span class="next" onclick="next(1,'hp')"></span>
+                <span class="prev" onclick="prev(1,'hp')"></span>
+                <div ><span class="box" id="box1">90</span></div>
+            </div>
+        </div>
+        <div class="stat">
+            <label for="box1">Atk</label>
+            <div class="spiner">
+                <span class="next" onclick="next(2,'atk')"></span>
+                <span class="prev" onclick="prev(2,'atk')"></span>
+                <div ><span class="box" id="box2">110</span></div>
+            </div>
+        </div>
+        <div class="stat">
+            <label for="box1">Def</label>
+            <div class="spiner">
+                <span class="next" onclick="next(3,'def')"></span>
+                <span class="prev" onclick="prev(3,'def')"></span>
+                <div ><span class="box" id="box3">80</span></div>
+            </div>
+        </div>
+        <div class="stat">
+            <label for="box1">Sp.Atk</label>
+            <div class="spiner">
+                <span class="next" onclick="next(4,'spatk')"></span>
+                <span class="prev" onclick="prev(4,'spatk')"></span>
+                <div ><span class="box" id="box4">100</span></div>
+            </div>
+        </div>
+        <div class="stat">
+            <label for="box1">Sp.Def</label>
+            <div class="spiner">
+                <span class="next" onclick="next(5,'spdef')"></span>
+                <span class="prev" onclick="prev(5,'spdef')"></span>
+                <div ><span class="box" id="box5">80</span></div>
+            </div>
+        </div>
+        <div class="stat">
+            <label for="box1">Speed</label>
+            <div class="spiner">
+                <span class="next" onclick="next(6,'speed')"></span>
+                <span class="prev" onclick="prev(6,'speed')"></span>
+                <div ><span class="box" id="box6">95</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="arcanine.png" alt="perro de fuego">
+        <div class="graphs">
+            <div class="fr"><div id="hp" class="bar">90</div></div>
+            <div class="fr"><div id="atk" class="bar">110</div></div>
+            <div class="fr"><div id="def" class="bar">80</div></div>
+            <div class="fr"><div id="spatk" class="bar">100</div></div>
+            <div class="fr"><div id="spdef" class="bar">80</div></div>
+            <div class="fr"><div id="speed" class="bar">95</div></div>
+        </div>
+    </div>
+    <script src="update.js"></script>
+</body>
+</html>
+
